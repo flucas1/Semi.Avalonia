@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>preview</LangVersion>
         <Version>11.0.10.4</Version>
         <PackageReleaseNotes>Update to 11.0.10.4</PackageReleaseNotes>
         <Authors>IRIHI Technology Co., Ltd.</Authors>
@@ -17,10 +17,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia.Controls.TreeDataGrid" Version="11.0.10"/>
-        <None Include="..\..\irihi.png" Pack="true" PackagePath="\" Link="Properties\irihi.png"/>
-        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" Link="Properties\LICENSE"/>
+        <None Include="..\..\irihi.png" Pack="true" PackagePath="\" Link="Properties\irihi.png" />
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" Link="Properties\LICENSE" />
         <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Avalonia.Controls.TreeDataGrid\src\Avalonia.Controls.TreeDataGrid\Avalonia.Controls.TreeDataGrid.csproj" />
     </ItemGroup>
 
 </Project>
