@@ -4,23 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
-        <Version>11.0.10.4</Version>
-        <PackageReleaseNotes>Update to 11.0.10.4</PackageReleaseNotes>
-        <Authors>IRIHI Technology Co., Ltd.</Authors>
-        <Description>Avalonia Theme inspired by Semi Design.</Description>
-        <RepositoryUrl>https://github.com/irihitech/Semi.Avalonia</RepositoryUrl>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageIcon>irihi.png</PackageIcon>
-        <PackageProjectUrl>https://github.com/irihitech/Semi.Avalonia</PackageProjectUrl>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
 		<IsAotCompatible>true</IsAotCompatible>
     </PropertyGroup>
-
-    <ItemGroup>
-        <None Include="..\..\irihi.png" Pack="true" PackagePath="\" Link="Properties\irihi.png" />
-        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" Link="Properties\LICENSE" />
-        <None Include="README.md" Pack="true" PackagePath="\" />
-    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\Avalonia.Controls.TreeDataGrid\src\Avalonia.Controls.TreeDataGrid\Avalonia.Controls.TreeDataGrid.csproj" />
