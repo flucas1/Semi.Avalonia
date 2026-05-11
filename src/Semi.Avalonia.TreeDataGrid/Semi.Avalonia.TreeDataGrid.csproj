@@ -5,6 +5,7 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>preview</LangVersion>
 		<IsAotCompatible>true</IsAotCompatible>
+		<NoWarn>$(NoWarn);NU1507</NoWarn>
 	</PropertyGroup>
 
 	<ItemGroup>
